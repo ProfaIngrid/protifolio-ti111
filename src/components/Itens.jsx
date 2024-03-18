@@ -18,6 +18,15 @@ const Itens = () => {
         },{
             titulo: 'CSS 3',
             img: Css
+        },{
+            titulo: 'HTML 5',
+            img: Html
+        },{
+            titulo: 'DB Relacional',
+            img: Sql
+        },{
+            titulo: 'NodeJS',
+            img: Node
         }
     ]
 
@@ -25,8 +34,13 @@ const Itens = () => {
         <>
             <Header titulo="Habilidades"/> 
             <div className="styleItens">
-                <Item titulo='React JS' img={React}/>
-                <Item img={Js} titulo='JavaScript'/>
+                {
+                   linguagens.map((linguagem) =>{
+                        return(
+                            <Item titulo={linguagem.titulo} img={linguagem.img}/>
+                        ) 
+                   }) 
+                }
             </div>
         </>
     )
