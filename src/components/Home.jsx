@@ -16,6 +16,7 @@ const Home = () => {
             <div className='menu'>
                 <Link to="/sobremim">Sobre mim</Link>
                 <Link to="/meusprojetos">Meus projetos</Link>
+                <Link to="/habilidades">Habilidades</Link>
             </div>
         </>
     )
