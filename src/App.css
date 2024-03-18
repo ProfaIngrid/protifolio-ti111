@@ -1,0 +1,122 @@
+body{
+  background-color: #1a0c2b;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  margin: 0 50px;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  border-right: 3px solid #F34DA9;
+  padding: 0 50px;
+}
+
+.menu a:last-child{
+  border: none;
+}
+
+span{
+  color: #F34DA9;
+}
+
+.sLogo{
+  width: 350px;
+}
+
+h1{
+  font-size: 100px;
+}
+
+.styleHeader{
+  display: flex;
+  align-items: center;
+}
+
+.styleHeader img{
+  width: 10%;
+  height: 10%;
+  margin-right: 10px;
+}
+
+.styleHeader h2{
+  font-size: 50px;
+}
+
+.styleMain{
+  margin: 70px 120px;
+}
+
+p{
+  text-align: justify;
+  font-size: 19px;
+}
+
+.card{
+  border: 4px solid #9F13DD;
+  border-radius: 11px;
+  padding: 0 15px;
+  background-color: #a013dd21;
+  margin: 0 5%;
+}
+
+.card h3{
+  text-align: center;
+  border-bottom: #F34DA9 solid 1px;
+  line-height: 90px;
+  margin: 0;
+}
+
+.mainProjetos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+  margin: 0 40px;
+}
+
+.containerHeader a{
+  color: #fff;
+}
+
+.containerHeader a:hover{
+  color: #F34DA9;
+}
+
+.styleItem img{
+  width: 5%;
+}
+.styleItem p{
+  font-size: 25px;
+}
+
+.styleItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.styleItem img{
+  width: 15%;
+}
+
+.styleItens{
+  display: flex;
+  justify-content: space-around;
+}
